@@ -27,7 +27,7 @@ jobs:
       - name: Set Project
         uses: google-github-actions/setup-gcloud@v0
         with:
-          project_id: multi-338920
+          project_id: stately-forest-427607-k1
 
       - name: Auth
         run: |-
@@ -36,7 +36,7 @@ jobs:
       - name: Get Credentials
         uses: google-github-actions/get-gke-credentials@v0
         with:
-          cluster_name: multi-cluster
+          cluster_name: cluster-1
           location: us-central1-c
 
       - name: Build
