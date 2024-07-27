@@ -56,7 +56,7 @@ class Fib extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label>Enter your index:</label>
+          <label>nothing special in this website if you want you can calulate fibonacci numbers</label>
           <input
             value={this.state.index}
             onChange={(event) => this.setState({ index: event.target.value })}
